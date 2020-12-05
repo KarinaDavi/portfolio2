@@ -31,3 +31,9 @@ Auth::routes();
 Route::get('/dashboard', function(){
 	return view ('home');
 })->middleware('auth') ;
+
+/*Route::get('/dashboard/portfolio', function () {
+    return view('admin.portfolio.index');
+});*/
+
+Route::get('/dashboard/portfolio', [App\Http\Controllers\Admin\ProjectsController::class, 'index'])->name('admin.portfolio.index');

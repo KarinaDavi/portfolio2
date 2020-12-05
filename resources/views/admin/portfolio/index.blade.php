@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-                <p>PANEL 2.</p>
+             <h1>ACA VA LA TABLA</h1>
  @stop
 
 
