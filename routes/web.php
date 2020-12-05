@@ -20,3 +20,14 @@ Route::get('/', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/dashboard', function(){
+	return view ('home');
+})->middleware('auth') ;
