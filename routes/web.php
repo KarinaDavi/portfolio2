@@ -17,23 +17,25 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/portfolio', function () {
+/*Route::get('/portfolio', function () {
     return view('portfolio');
-});
+});*/
 
-Route::get('/admin', function () {
+Route::get('/portfolio', [App\Http\Controllers\FrontendController::class, 'index'])->name('portfolio');
+
+/*Route::get('/admin', function () {
     return view('admin');
-});
+});*/
 
 Auth::routes();
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/dashboard', function(){
 	return view ('home');
 })->middleware('auth') ;
 
-/*Route::get('/dashboard/portfolio', function () {
-    return view('admin.portfolio.index');
-});*/
-
 Route::get('/dashboard/portfolio', [App\Http\Controllers\Admin\ProjectsController::class, 'index'])->name('admin.portfolio.index');
+
+Route::post('/dashboard/portfolio/store', [App\Http\Controllers\Admin\ProjectsController::class, 'store'])->name('admin.portfolio.store');
+Route::get('/dashboard/portfolio/{projectId}/edit', [App\Http\Controllers\Admin\ProjectsController::class, 'edit'])->name('admin.portfolio.edit');
+Route::post('/dashboard/portfolio/{projectId}/update', [App\Http\Controllers\Admin\ProjectsController::class, 'update'])->name('admin.portfolio.update');
+Route::delete('/dashboard/portfolio/{projectId}/delete', [App\Http\Controllers\Admin\ProjectsController::class, 'delete'])->name('admin.portfolio.delete');

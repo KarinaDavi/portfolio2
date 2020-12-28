@@ -7,7 +7,7 @@ html {
   
   hr {
     width: 100px;
-    border: 2px solid black; }
+    border: 2px solid white; }
   
   p {
     color: white; }
@@ -22,7 +22,7 @@ html {
     background-color: #5CBD9D !important; }
   
   #porfolio p {
-    color: black; }
+    color: white; }
   
   footer {
     background-color: var(#2C3D50); }

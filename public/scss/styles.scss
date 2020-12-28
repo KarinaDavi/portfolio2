@@ -6,7 +6,7 @@ html {
 
 .bg-dark { background-color: var($main-bg-color) !important; }
 
-hr { width: 100px; border:2px solid black;}
+hr { width: 100px; border:2px solid white;}
 p { color: white; }
 
 input.form-control, textarea.form-control{
@@ -21,7 +21,7 @@ input.form-control, textarea.form-control{
 }
 
 #porfolio {
-    p {color: black}
+    p {color: white}
 }
 
 footer {
