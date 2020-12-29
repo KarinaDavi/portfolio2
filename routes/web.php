@@ -20,7 +20,7 @@ Route::get('/', function () {
 /*Route::get('/portfolio', function () {
     return view('portfolio');
 });*/
-
+Route::get('/', [App\Http\Controllers\FrontendController::class, 'index'])->name('portfolio');
 Route::get('/portfolio', [App\Http\Controllers\FrontendController::class, 'index'])->name('portfolio');
 
 /*Route::get('/admin', function () {
