@@ -26,7 +26,7 @@
 			<img src="{{asset('images\avatar.png')}}" class="img-fluid" width="200" alt="">
 			<h1 style="color: white;">Soy Karina Davidovich</h1>
 			<hr>
-			<p>Analista en Sistemas de Información, Desarrolladora Web, QA</p>
+			<p style="color: white;">Analista en Sistemas de Información, Desarrolladora Web, QA</p>
 		</div>
 	</div>
 </header>
@@ -53,10 +53,10 @@
 			<hr>
 		</div>
 		<div class="col-4">
-			<p>Soy una profesional capacitada para desempeñame en diferentes roles,tales como Desarrollador, Tester, Analista Funcional, Arquitecto de Software, DBA, Administrador de Redes, Asesor en Tecnología, Asegurador de Calidad (QA), Auditor de Sistemas, Consultor en informática. </p>
+			<p style="color: white;">Soy una profesional capacitada para desempeñame en diferentes roles,tales como Desarrollador, Tester, Analista Funcional, Arquitecto de Software, DBA, Administrador de Redes, Asesor en Tecnología, Asegurador de Calidad (QA), Auditor de Sistemas, Consultor en informática. </p>
 		</div>
 		<div class="col-4">
-			<p>Mi objetivo como profesional es sumarme a organizaciones civiles, bancos, entidades financieras, empresas comerciales,industrias o consultoras para potenciar mi capacidad.</p>
+			<p style="color: white;">Mi objetivo como profesional es sumarme a organizaciones civiles, bancos, entidades financieras, empresas comerciales,industrias o consultoras para potenciar mi capacidad.</p>
 		</div>
 		<div class="col-12 text-center">
 			<button href="https://drive.google.com/file/d/1obUzUFTydNJ6MAE2gtOBJG0VhG0pLKBi/view?usp=sharing" type="button" class="btn btn-outline-secondary">Descargar CV</button>
@@ -93,11 +93,11 @@
 <footer class="container-fluid" style="background-color: #1A252F;">
 	<div class="row justify-content-center pt-5">
 		<div class="col-4 text-center pb-4">
-			<h3>Ubicación</h3>
-			<p>San Miguel de Tucumán, Tucumán , Argentina </p>
+			<h3 style="color: white;">Ubicación</h3>
+			<p style="color: white;">San Miguel de Tucumán, Tucumán , Argentina </p>
 		</div>
 		<div class="col-4 text-center pb-4">
-			<h3>Enlaces</h3>
+			<h3 style="color: white;">Enlaces</h3>
 			<a href="https://web.facebook.com/karina.davidovich"><i class='fab fa-facebook' style='font-size:36px'></i>
 			</a>
 			<a href="https://www.instagram.com/karinadavidovich/"><i class='fab fa-instagram' style='font-size:36px'></i>
@@ -106,11 +106,11 @@
 			<a href="https://github.com/KarinaDavi/"><i class='fab fa-github' style='font-size:36px'></i></a>
 		</div>
 		<div class="col-4 text-center pb-4">
-			<h3>Detalles de Contacto</h3>
-			<p>Ana Karina Davidovich , - 54(381)6920078 - thedeicider@gmail.com			</p>
+			<h3 style="color: white;">Detalles de Contacto</h3>
+			<p style="color: white;">Ana Karina Davidovich , - 54(381)6920078 - thedeicider@gmail.com			</p>
 		</div>
 		<div class="col-12 pt-3 text-center" style="background-color: #1A252F;">
-			<p>© Copyright 2020 - Design by KDavidovich</p>
+			<p style="color: white;">© Copyright 2020 - Design by KDavidovich</p>
 		</div>
 	</div>
 </footer>
